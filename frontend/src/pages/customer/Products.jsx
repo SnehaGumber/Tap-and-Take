@@ -12,7 +12,7 @@ import { fetchCategories, fetchFilterFacets, fetchProducts } from '../../service
 import { DISCOUNT_FILTERS, SORT_OPTIONS } from '../../utils/constants.js'
 import { formatCurrency, formatNumber } from '../../utils/format.js'
 
-const VIEW_KEY = 'trendora_listing_view'
+const VIEW_KEY = 'tap-and-take_listing_view'
 
 /**
  * All filtering, sorting and pagination is performed by the backend:

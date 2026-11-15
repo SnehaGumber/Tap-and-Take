@@ -13,11 +13,8 @@ A modern e-commerce platform designed to provide a seamless online shopping expe
 
 ## Tech Stack
 
-**Frontend:** React, Vite, JavaScript, CSS
-
+**Frontend:** React, Vite, JavaScript, CSS  
 **Backend:** Node.js, Express.js
-
-**Database:** Add the database technology used by the project.
 
 ## Project Structure
 
@@ -51,13 +48,10 @@ Screenshots of the application are available in the `screenshots/` directory.
    ```
 
 3. Install dependencies for the frontend and backend using their respective package directories.
-
 4. Configure the required environment variables.
-
 5. Start the frontend and backend using the scripts defined in their respective `package.json` files.
 
 ## Author
 
-**Sneha Gumber**
-
+**Sneha Gumber**  
 GitHub: [SnehaGumber](https://github.com/SnehaGumber)

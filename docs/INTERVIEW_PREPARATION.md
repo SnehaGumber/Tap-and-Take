@@ -1,6 +1,6 @@
-# Trendora — Interview Preparation
+# Tap & Take — Interview Preparation
 
-This document contains concise, accurate answers to common interview questions about the engineering decisions in Trendora. Every answer is grounded in the actual source code.
+This document contains concise, accurate answers to common interview questions about the engineering decisions in Tap & Take. Every answer is grounded in the actual source code.
 
 ---
 
@@ -115,7 +115,7 @@ if (result.modifiedCount !== 1) throw ApiError.conflict('out of stock');
 
 **What is idempotency?** An operation is idempotent if calling it multiple times has the same effect as calling it once. Example: paying for the same order twice should not charge the customer twice.
 
-**How Trendora handles it:**
+**How Tap & Take handles it:**
 
 - `confirmPayment` checks `if (order.paymentStatus === 'paid') return { alreadyPaid: true }` before touching anything.
 - `commitOrder` checks `if (order.stockCommitted) return order` — stock is never decremented twice for the same order.

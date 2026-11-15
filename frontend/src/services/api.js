@@ -1,7 +1,7 @@
 import axios from 'axios'
 
-export const TOKEN_KEY = 'trendora_token'
-export const USER_KEY = 'trendora_user'
+export const TOKEN_KEY = 'tap-and-take_token'
+export const USER_KEY = 'tap-and-take_user'
 
 const api = axios.create({
   baseURL: import.meta.env.VITE_API_URL || '/api',

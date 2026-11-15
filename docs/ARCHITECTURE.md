@@ -1,8 +1,8 @@
-# Trendora — Architecture
+# Tap & Take — Architecture
 
 ## Overview
 
-Trendora is a deliberately monolithic, well-layered MERN application. No microservices, no message queues, no GraphQL. The architecture is chosen to be explainable in an interview and runnable by a single developer without external infrastructure.
+Tap & Take is a deliberately monolithic, well-layered MERN application. No microservices, no message queues, no GraphQL. The architecture is chosen to be explainable in an interview and runnable by a single developer without external infrastructure.
 
 ```
 Browser (React + Vite)

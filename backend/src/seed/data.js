@@ -22,7 +22,7 @@ const categories = [
 const sellers = [
   {
     name: 'Aarav Mehta',
-    email: 'seller@trendora.dev',
+    email: 'seller@tap-and-take.dev',
     store: {
       name: 'NovaTech Store',
       description: 'Certified consumer electronics with 12-month replacement warranty.',
@@ -32,7 +32,7 @@ const sellers = [
   },
   {
     name: 'Isha Kapoor',
-    email: 'seller2@trendora.dev',
+    email: 'seller2@tap-and-take.dev',
     store: {
       name: 'Urban Thread',
       description: 'Everyday fashion built from sustainable fabrics.',
@@ -42,7 +42,7 @@ const sellers = [
   },
   {
     name: 'Rohan Verma',
-    email: 'seller3@trendora.dev',
+    email: 'seller3@tap-and-take.dev',
     store: {
       name: 'HomeCraft Living',
       description: 'Kitchen and home essentials designed for small apartments.',
@@ -52,7 +52,7 @@ const sellers = [
   },
   {
     name: 'Neha Sharma',
-    email: 'seller4@trendora.dev',
+    email: 'seller4@tap-and-take.dev',
     store: {
       name: 'PureGlow Wellness',
       description: 'Dermatologist tested skincare and wellness products.',
@@ -63,9 +63,9 @@ const sellers = [
 ];
 
 const customers = [
-  { name: 'Priya Nair', email: 'customer@trendora.dev', phone: '+1 415 555 0201' },
-  { name: 'Karan Singh', email: 'customer2@trendora.dev', phone: '+1 415 555 0202' },
-  { name: 'Meera Iyer', email: 'customer3@trendora.dev', phone: '+1 415 555 0203' },
+  { name: 'Priya Nair', email: 'customer@tap-and-take.dev', phone: '+1 415 555 0201' },
+  { name: 'Karan Singh', email: 'customer2@tap-and-take.dev', phone: '+1 415 555 0202' },
+  { name: 'Meera Iyer', email: 'customer3@tap-and-take.dev', phone: '+1 415 555 0203' },
 ];
 
 const spec = (pairs) => pairs.map(([key, value]) => ({ key, value }));

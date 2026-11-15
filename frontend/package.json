@@ -1,9 +1,9 @@
 {
-  "name": "trendora-frontend",
+  "name": "tap-and-take-frontend",
   "version": "1.0.0",
   "private": true,
   "type": "module",
-  "description": "Trendora marketplace frontend (React + Vite)",
+  "description": "Tap & Take marketplace frontend (React + Vite)",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
@@ -14,7 +14,7 @@
     "react": "^18.3.1",
     "react-dom": "^18.3.1",
     "react-router-dom": "^6.26.2",
-    "trendora": "file:.."
+    "tap-and-take": "file:.."
   },
   "devDependencies": {
     "@vitejs/plugin-react": "^4.3.1",

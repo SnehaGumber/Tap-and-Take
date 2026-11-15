@@ -79,7 +79,7 @@ export default function Cart() {
                   <strong>{item.product.title}</strong>
                 </Link>
                 <span className="muted">
-                  Sold by {item.product.seller?.store?.name || item.product.seller?.name || 'Trendora seller'}
+                  Sold by {item.product.seller?.store?.name || item.product.seller?.name || 'Tap & Take seller'}
                 </span>
                 {!item.inStock ? <span className="badge badge--danger">Out of stock</span> : null}
                 <div className="cart-item__controls">

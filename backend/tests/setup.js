@@ -1,7 +1,7 @@
 'use strict';
 
 process.env.NODE_ENV = 'test';
-process.env.JWT_SECRET = process.env.JWT_SECRET || 'trendora-test-secret';
+process.env.JWT_SECRET = process.env.JWT_SECRET || 'tap-and-take-test-secret';
 process.env.TAX_RATE = '0.08';
 process.env.SHIPPING_FLAT = '6.99';
 process.env.FREE_SHIPPING_THRESHOLD = '75';
@@ -13,7 +13,7 @@ let mongoServer;
 
 beforeAll(async () => {
   mongoServer = await MongoMemoryServer.create();
-  await mongoose.connect(mongoServer.getUri(), { dbName: 'trendora-test' });
+  await mongoose.connect(mongoServer.getUri(), { dbName: 'tap-and-take-test' });
 });
 
 afterEach(async () => {

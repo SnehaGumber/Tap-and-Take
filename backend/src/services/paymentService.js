@@ -42,7 +42,7 @@ async function createPaymentIntent({
       userId: String(userId),
     },
     payment_method_types: ['card'],
-    description: 'Trendora order payment',
+    description: 'Tap & Take order payment',
   });
 
   return {

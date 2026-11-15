@@ -73,7 +73,7 @@ export default function Register() {
 
   return (
     <div className="auth-card">
-      <h1>Create your Trendora account</h1>
+      <h1>Create your Tap & Take account</h1>
       <p className="muted">Shop as a customer or open your own store.</p>
 
       <div className="role-toggle" role="group" aria-label="Account type">

@@ -1,7 +1,7 @@
 /* Offline verification harness: exercises the pure, DB-free parts of the API. */
 process.env.NODE_ENV = 'test'
 process.env.JWT_SECRET = 'verification-secret-key-1234567890'
-process.env.MONGO_URI = 'mongodb://127.0.0.1:27017/trendora_verify'
+process.env.MONGO_URI = 'mongodb://127.0.0.1:27017/tap-and-take_verify'
 process.env.TAX_RATE = '0.08'
 process.env.SHIPPING_FLAT = '6.99'
 process.env.FREE_SHIPPING_THRESHOLD = '75'
@@ -56,15 +56,15 @@ check('computeTotals: empty cart has no shipping and no total', () => {
   assert.strictEqual(t.total, 0)
 })
 
-check('coupon TRENDORA10 caps at maxDiscount', () => {
-  const t = computeTotals([{ price: 500, originalPrice: 500, quantity: 1 }], { couponCode: 'trendora10' })
+check('coupon TAP & TAKE10 caps at maxDiscount', () => {
+  const t = computeTotals([{ price: 500, originalPrice: 500, quantity: 1 }], { couponCode: 'tap-and-take10' })
   assert.strictEqual(t.couponDiscount, 40)
-  assert.strictEqual(t.couponCode, 'TRENDORA10')
+  assert.strictEqual(t.couponCode, 'TAP & TAKE10')
   assert.strictEqual(t.tax, round2(460 * 0.08))
 })
 
 check('coupon is rejected below its minimum subtotal', () => {
-  const t = computeTotals([{ price: 10, originalPrice: 10, quantity: 1 }], { couponCode: 'TRENDORA10' })
+  const t = computeTotals([{ price: 10, originalPrice: 10, quantity: 1 }], { couponCode: 'TAP & TAKE10' })
   assert.strictEqual(t.couponDiscount, 0)
   assert.strictEqual(t.couponCode, '')
   assert.strictEqual(t.coupon.applied, false)

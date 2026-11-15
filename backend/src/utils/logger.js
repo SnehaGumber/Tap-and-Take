@@ -6,13 +6,13 @@ const stamp = () => new Date().toISOString();
 
 const logger = {
   info: (...args) => {
-    if (!env.isTest) console.log(`[trendora][info][${stamp()}]`, ...args);
+    if (!env.isTest) console.log(`[tap-and-take][info][${stamp()}]`, ...args);
   },
   warn: (...args) => {
-    if (!env.isTest) console.warn(`[trendora][warn][${stamp()}]`, ...args);
+    if (!env.isTest) console.warn(`[tap-and-take][warn][${stamp()}]`, ...args);
   },
   error: (...args) => {
-    if (!env.isTest) console.error(`[trendora][error][${stamp()}]`, ...args);
+    if (!env.isTest) console.error(`[tap-and-take][error][${stamp()}]`, ...args);
   },
 };
 

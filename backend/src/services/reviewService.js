@@ -86,7 +86,7 @@ async function assertPurchaseEligibility(userId, productId) {
     .lean();
 
   if (!order) {
-    throw ApiError.forbidden('You can only review products you have purchased on Trendora.');
+    throw ApiError.forbidden('You can only review products you have purchased on Tap & Take.');
   }
   return order._id;
 }

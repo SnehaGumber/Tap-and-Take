@@ -19,7 +19,7 @@ const requireDatabase = (_req, _res, next) => {
   if (readyState === 1 || readyState === 2) return next();
   return next(
     ApiError.serviceUnavailable(
-      'The Trendora database is unavailable. Start MongoDB (or check MONGO_URI) and try again.'
+      'The Tap & Take database is unavailable. Start MongoDB (or check MONGO_URI) and try again.'
     )
   );
 };

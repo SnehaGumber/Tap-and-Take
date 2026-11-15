@@ -31,7 +31,7 @@ export default function AddProduct() {
       <header className="dash-page__head">
         <div>
           <h1>Add a product</h1>
-          <p className="muted">Images are stored on the Trendora backend, so no third-party image host is required.</p>
+          <p className="muted">Images are stored on the Tap & Take backend, so no third-party image host is required.</p>
         </div>
       </header>
 

@@ -14,7 +14,7 @@ let jwtSecret = rawJwtSecret;
 
 if (!jwtSecret) {
   if (nodeEnv === 'test') {
-    jwtSecret = 'trendora-test-secret-do-not-use-in-production';
+    jwtSecret = 'tap-and-take-test-secret-do-not-use-in-production';
   } else {
     throw new Error(
       'Missing JWT_SECRET environment variable. Copy backend/.env.example to backend/.env and set JWT_SECRET.'
@@ -32,7 +32,7 @@ const env = {
   isProduction: nodeEnv === 'production',
   isTest: nodeEnv === 'test',
   port: toNumber(process.env.PORT, 5000),
-  mongoUri: process.env.MONGO_URI || 'mongodb://127.0.0.1:27017/trendora',
+  mongoUri: process.env.MONGO_URI || 'mongodb://127.0.0.1:27017/tap-and-take',
   jwtSecret,
   jwtExpiresIn: process.env.JWT_EXPIRES_IN || '7d',
   clientUrls,
@@ -42,7 +42,7 @@ const env = {
   shippingFlat: toNumber(process.env.SHIPPING_FLAT, 6.99),
   freeShippingThreshold: toNumber(process.env.FREE_SHIPPING_THRESHOLD, 75),
   lowStockThreshold: toNumber(process.env.LOW_STOCK_THRESHOLD, 5),
-  seedPassword: process.env.SEED_PASSWORD || 'Trendora@123',
+  seedPassword: process.env.SEED_PASSWORD || 'Tap & Take@123',
   stripe: {
     secretKey: process.env.STRIPE_SECRET_KEY || '',
     publishableKey: process.env.STRIPE_PUBLISHABLE_KEY || '',

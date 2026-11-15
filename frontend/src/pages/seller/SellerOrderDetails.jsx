@@ -128,7 +128,7 @@ export default function SellerOrderDetails() {
             <span>Items total</span>
             <strong>{formatCurrency(data.sellerTotal ?? 0)}</strong>
           </div>
-          <p className="muted">Platform totals, tax and shipping are managed by Trendora.</p>
+          <p className="muted">Platform totals, tax and shipping are managed by Tap & Take.</p>
         </aside>
       </div>
     </div>

@@ -39,16 +39,16 @@ describe('pricing utils', () => {
 describe('coupons', () => {
   it('caps a percentage coupon at its maximum discount and taxes the reduced base', () => {
     const totals = computeTotals([{ price: 500, originalPrice: 500, quantity: 1 }], {
-      couponCode: 'trendora10',
+      couponCode: 'tap-and-take10',
     });
-    expect(totals.couponCode).toBe('TRENDORA10');
+    expect(totals.couponCode).toBe('TAP & TAKE10');
     expect(totals.couponDiscount).toBe(40);
     expect(totals.tax).toBeCloseTo(460 * 0.08, 2);
   });
 
   it('rejects a coupon below its minimum subtotal with an explanatory message', () => {
     const totals = computeTotals([{ price: 10, originalPrice: 10, quantity: 1 }], {
-      couponCode: 'TRENDORA10',
+      couponCode: 'TAP & TAKE10',
     });
     expect(totals.couponDiscount).toBe(0);
     expect(totals.couponCode).toBe('');

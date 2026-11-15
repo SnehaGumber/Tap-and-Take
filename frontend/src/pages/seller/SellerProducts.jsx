@@ -97,7 +97,7 @@ export default function SellerProducts() {
         <EmptyState
           icon={'\u{1F4E6}'}
           title="No products yet"
-          message="Add your first product to start selling on Trendora."
+          message="Add your first product to start selling on Tap & Take."
           actionLabel="Add product"
           actionTo="/seller/products/new"
         />

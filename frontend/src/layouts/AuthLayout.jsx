@@ -8,7 +8,7 @@ export default function AuthLayout() {
           <span className="brand__mark" aria-hidden="true">
             T
           </span>
-          <span className="brand__text">Trendora</span>
+          <span className="brand__text">Tap & Take</span>
         </Link>
         <h2>Shop smarter on a marketplace built for everyone.</h2>
         <ul>

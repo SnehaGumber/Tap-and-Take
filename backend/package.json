@@ -1,8 +1,8 @@
 {
-  "name": "trendora-backend",
+  "name": "tap-and-take-backend",
   "version": "1.0.0",
   "private": true,
-  "description": "Trendora REST API - Node.js, Express, MongoDB, Mongoose, JWT",
+  "description": "Tap & Take REST API - Node.js, Express, MongoDB, Mongoose, JWT",
   "main": "src/server.js",
   "scripts": {
     "start": "node src/server.js",
@@ -27,7 +27,7 @@
     "morgan": "^1.10.0",
     "multer": "^1.4.5-lts.1",
     "stripe": "^16.6.0",
-    "trendora": "file:..",
+    "tap-and-take": "file:..",
     "zod": "^4.6.7",
     "cloudinary": "^2.11.0"
   },

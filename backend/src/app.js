@@ -50,7 +50,7 @@ if (!env.isTest) {
 app.get('/', (_req, res) => {
   res.json({
     success: true,
-    message: 'Trendora API',
+    message: 'Tap & Take API',
     data: { docs: '/api/health', version: '1.0.0' },
   });
 });

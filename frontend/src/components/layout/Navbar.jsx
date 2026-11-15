@@ -36,11 +36,11 @@ export default function Navbar() {
   return (
     <header className="navbar">
       <div className="navbar__top container">
-        <Link to="/" className="brand" aria-label="Trendora home">
+        <Link to="/" className="brand" aria-label="Tap & Take home">
           <span className="brand__mark" aria-hidden="true">
             T
           </span>
-          <span className="brand__text">Trendora</span>
+          <span className="brand__text">Tap & Take</span>
         </Link>
 
         <div className="navbar__search">
@@ -140,7 +140,7 @@ export default function Navbar() {
 
           {user?.role === 'seller' ? null : (
             <Link to="/register?role=seller" className="navbar__seller">
-              Sell on Trendora
+              Sell on Tap & Take
             </Link>
           )}
         </nav>

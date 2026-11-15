@@ -44,7 +44,7 @@ export default function Login() {
 
   return (
     <div className="auth-card">
-      <h1>Sign in to Trendora</h1>
+      <h1>Sign in to Tap & Take</h1>
       <p className="muted">Access your cart, wishlist and orders.</p>
 
       <form onSubmit={submit} noValidate>
@@ -78,7 +78,7 @@ export default function Login() {
       </form>
 
       <p className="auth-card__foot">
-        New to Trendora? <Link to="/register">Create an account</Link>
+        New to Tap & Take? <Link to="/register">Create an account</Link>
       </p>
       <p className="auth-card__foot muted">
         Seller? <Link to="/seller/login">Seller sign in</Link> &middot; Admin?{' '}

@@ -7,12 +7,12 @@ function signAccessToken(user) {
   return jwt.sign(
     { sub: String(user._id), role: user.role },
     env.jwtSecret,
-    { expiresIn: env.jwtExpiresIn, issuer: 'trendora-api' }
+    { expiresIn: env.jwtExpiresIn, issuer: 'tap-and-take-api' }
   );
 }
 
 function verifyAccessToken(token) {
-  return jwt.verify(token, env.jwtSecret, { issuer: 'trendora-api' });
+  return jwt.verify(token, env.jwtSecret, { issuer: 'tap-and-take-api' });
 }
 
 function extractBearerToken(req) {

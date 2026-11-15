@@ -1,5 +1,5 @@
 /* =========================================================================
-   Trendora design system
+   Tap & Take design system
    Original visual identity: deep indigo + coral accent, soft cards, 12px grid
    ========================================================================= */
 
@@ -2199,7 +2199,7 @@ textarea {
   stroke-linecap: round;
 }
 .chart__area {
-  fill: url(#trendoraArea);
+  fill: url(#tap-and-takeArea);
   opacity: 0.65;
 }
 .chart__dot {
@@ -2571,7 +2571,7 @@ textarea {
 }
 
 /* ==========================================================================
-   Trendora design-system upgrade layer
+   Tap & Take design-system upgrade layer
    Shared tokens above are reused; this layer styles the marketplace surfaces
    added in the professional polish pass (navigation, suggestions, category
    cards, trust strip, list view, coupons, checkout stepper, account shell).
@@ -3682,7 +3682,7 @@ textarea {
 }
 
 /* =========================================================================
-   Trendora storefront refresh — visual-only layer over existing components
+   Tap & Take storefront refresh — visual-only layer over existing components
    ========================================================================= */
 :root {
   --store-ink: #17233f;

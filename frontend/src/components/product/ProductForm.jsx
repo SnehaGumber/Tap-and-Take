@@ -223,7 +223,7 @@ export default function ProductForm({
         label="Product images"
         name="images"
         error={errors.images}
-        hint="Up to 6 images (JPG, PNG or WEBP, max 5MB each). Stored on the Trendora backend."
+        hint="Up to 6 images (JPG, PNG or WEBP, max 5MB each). Stored on the Tap & Take backend."
         required={!initialProduct}
       >
         <input

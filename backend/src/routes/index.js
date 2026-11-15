@@ -8,7 +8,7 @@ const router = express.Router();
 router.get('/health', (_req, res) => {
   res.json({
     success: true,
-    message: 'Trendora API is healthy',
+    message: 'Tap & Take API is healthy',
     data: {
       environment: env.nodeEnv,
       uptimeSeconds: Math.round(process.uptime()),

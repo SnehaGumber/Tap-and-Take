@@ -9,23 +9,23 @@ export default function Footer() {
             <span className="brand__mark" aria-hidden="true">
               T
             </span>
-            <span className="brand__text">Trendora</span>
+            <span className="brand__text">Tap & Take</span>
           </div>
           <p className="footer__about">
-            Trendora is a multi-vendor marketplace built on the MERN stack. Verified sellers,
+            Tap & Take is a multi-vendor marketplace built on the MERN stack. Verified sellers,
             server-verified pricing and a secure Stripe test checkout.
           </p>
-          <div className="footer__social" aria-label="Trendora social profiles">
-            <span className="footer__social-btn" title="Trendora on X" aria-hidden="true">
+          <div className="footer__social" aria-label="Tap & Take social profiles">
+            <span className="footer__social-btn" title="Tap & Take on X" aria-hidden="true">
               X
             </span>
-            <span className="footer__social-btn" title="Trendora on Instagram" aria-hidden="true">
+            <span className="footer__social-btn" title="Tap & Take on Instagram" aria-hidden="true">
               in
             </span>
-            <span className="footer__social-btn" title="Trendora on LinkedIn" aria-hidden="true">
+            <span className="footer__social-btn" title="Tap & Take on LinkedIn" aria-hidden="true">
               Li
             </span>
-            <span className="footer__social-btn" title="Trendora on GitHub" aria-hidden="true">
+            <span className="footer__social-btn" title="Tap & Take on GitHub" aria-hidden="true">
               Gh
             </span>
           </div>
@@ -67,7 +67,7 @@ export default function Footer() {
 
       <div className="container footer__meta">
         <div>
-          <h4>About Trendora</h4>
+          <h4>About Tap & Take</h4>
           <p className="muted">
             A portfolio-grade marketplace: React + Vite on the front end, Node.js, Express and
             MongoDB on the back end, with JWT authentication and role-based access for customers,
@@ -84,9 +84,9 @@ export default function Footer() {
         <div>
           <h4>Contact</h4>
           <p className="muted">
-            support@trendora.dev
+            support@tap-and-take.dev
             <br />
-            Seller onboarding: sellers@trendora.dev
+            Seller onboarding: sellers@tap-and-take.dev
             <br />
             Mon-Sat, 9:00-18:00
           </p>
@@ -94,7 +94,7 @@ export default function Footer() {
       </div>
 
       <div className="footer__bar">
-        <span>&copy; {new Date().getFullYear()} Trendora. Built as a full-stack portfolio project.</span>
+        <span>&copy; {new Date().getFullYear()} Tap & Take. Built as a full-stack portfolio project.</span>
         <span>Payments run in Stripe test mode - no real money is charged.</span>
       </div>
     </footer>

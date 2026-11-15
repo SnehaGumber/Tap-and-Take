@@ -6,7 +6,7 @@
  */
 const COUPONS = [
   {
-    code: 'TRENDORA10',
+    code: 'TAP & TAKE10',
     type: 'percent',
     value: 10,
     maxDiscount: 40,

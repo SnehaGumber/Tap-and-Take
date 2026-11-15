@@ -35,12 +35,12 @@ export const TRUST_ITEMS = [
   {
     icon: '\u2713',
     title: 'Verified sellers',
-    text: 'Every store is reviewed and approved by the Trendora admin team before it can list products.',
+    text: 'Every store is reviewed and approved by the Tap & Take admin team before it can list products.',
   },
   {
     icon: '\u{1F512}',
     title: 'Secure payments',
-    text: 'Card payments run through Stripe. Trendora never stores your card details.',
+    text: 'Card payments run through Stripe. Tap & Take never stores your card details.',
   },
   {
     icon: '\u21BB',

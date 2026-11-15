@@ -21,7 +21,7 @@ export default function DashboardLayout({ variant = 'seller', links = [] }) {
             T
           </span>
           <span className="brand__text">
-            Trendora <small>{variant === 'admin' ? 'Admin' : 'Seller'}</small>
+            Tap & Take <small>{variant === 'admin' ? 'Admin' : 'Seller'}</small>
           </span>
         </Link>
 

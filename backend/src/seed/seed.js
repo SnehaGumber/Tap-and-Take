@@ -1,7 +1,7 @@
 'use strict';
 
 /**
- * Trendora development seed script.
+ * Tap & Take development seed script.
  *   npm run seed            -> wipes and re-seeds the database
  *   npm run seed:destroy    -> only clears the collections
  */
@@ -38,13 +38,13 @@ async function clearAll() {
     Review.deleteMany({}),
     Payment.deleteMany({}),
   ]);
-  console.log('Cleared all Trendora collections.');
+  console.log('Cleared all Tap & Take collections.');
 }
 
 async function createUsers() {
   const admin = await User.create({
-    name: 'Trendora Admin',
-    email: 'admin@trendora.dev',
+    name: 'Tap & Take Admin',
+    email: 'admin@tap-and-take.dev',
     password: PASSWORD,
     role: 'admin',
     phone: '+1 415 555 0100',
@@ -301,7 +301,7 @@ async function run() {
   await seedSampleCartAndWishlist(customers, products);
 
   console.log('');
-  console.log('Trendora seed complete');
+  console.log('Tap & Take seed complete');
   console.log('-----------------------------------------');
   console.log(`Categories : ${categoryMap.size}`);
   console.log(`Products   : ${products.length}`);

@@ -1,4 +1,4 @@
-# Trendora — Project Audit
+# Tap & Take — Project Audit
 
 This document records the findings from the Phase 1 audit performed against the actual source files. All findings are confirmed by code inspection or test execution.
 

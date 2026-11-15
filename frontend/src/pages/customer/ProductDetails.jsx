@@ -301,7 +301,7 @@ export default function ProductDetails() {
                 <strong>
                   {sellerName}{' '}
                   {storeApproved ? (
-                    <span className="badge badge--info" title="Verified Trendora seller">
+                    <span className="badge badge--info" title="Verified Tap & Take seller">
                       Verified seller
                     </span>
                   ) : null}
@@ -457,7 +457,7 @@ export default function ProductDetails() {
               reviews.map((item) => (
                 <article className="review" key={item._id}>
                   <header>
-                    <strong>{item.user?.name || 'Trendora customer'}</strong>
+                    <strong>{item.user?.name || 'Tap & Take customer'}</strong>
                     <Rating value={item.rating} showValue={false} />
                     <span className="muted">{formatDate(item.createdAt)}</span>
                   </header>

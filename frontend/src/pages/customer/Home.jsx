@@ -111,7 +111,7 @@
                         onError={(event) => { event.currentTarget.src = PLACEHOLDER_IMAGE }}
                       />
                       <span className="hero__product-caption">
-                        <small>{index === 0 ? 'TRENDING PICK' : product.brand || 'TRENDORA FIND'}</small>
+                        <small>{index === 0 ? 'TRENDING PICK' : product.brand || 'TAP & TAKE FIND'}</small>
                         <strong>{product.title}</strong>
                       </span>
                     </Link>
@@ -123,7 +123,7 @@
                 <div className="hero__showcase hero__showcase--fallback">
                   <span className="hero__fallback-icon">✦</span>
                   <strong>Find your next favourite</strong>
-                  <span>Explore the latest picks across Trendora</span>
+                  <span>Explore the latest picks across Tap & Take</span>
                   <Link className="btn btn--primary" to="/products">Explore products</Link>
                 </div>
               )}
@@ -135,7 +135,7 @@
           <div className="section__head">
             <div>
               <h2>Shop by category</h2>
-              <p className="muted">Curated departments across the Trendora catalogue.</p>
+              <p className="muted">Curated departments across the Tap & Take catalogue.</p>
             </div>
             <Link className="link-btn" to="/products">
               Browse all
@@ -185,7 +185,7 @@
 
         <Section
           title="Best sellers"
-          subtitle="More of what sells fastest across Trendora stores."
+          subtitle="More of what sells fastest across Tap & Take stores."
           to="/products?sort=popular"
           state={bestSellers}
         />
@@ -246,7 +246,7 @@
           <div className="container">
             <div className="section__head">
               <div>
-                <h2>Why shop on Trendora</h2>
+                <h2>Why shop on Tap & Take</h2>
                 <p className="muted">Marketplace safeguards that apply to every order.</p>
               </div>
             </div>

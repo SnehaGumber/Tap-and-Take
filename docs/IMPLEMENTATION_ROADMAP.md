@@ -1,4 +1,4 @@
-# Trendora — Implementation Roadmap
+# Tap & Take — Implementation Roadmap
 
 ## Completed in This Session
 

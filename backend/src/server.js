@@ -12,7 +12,7 @@ async function start() { // async means that this function will return a promise
     await connectDB(); // await means that the function will wait for the promise to resolve before continuing
 
     server = app.listen(env.port, () => {
-      logger.info(`Trendora API listening on http://localhost:${env.port} (${env.nodeEnv})`); // we write info to the logger that the server is listening on the specified port and environment
+      logger.info(`Tap & Take API listening on http://localhost:${env.port} (${env.nodeEnv})`); // we write info to the logger that the server is listening on the specified port and environment
       if (!env.isStripeConfigured) {
         logger.warn(
           'Stripe is not configured - card checkout will run in simulated test mode until STRIPE_SECRET_KEY is set.'

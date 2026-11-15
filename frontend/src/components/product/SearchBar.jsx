@@ -15,7 +15,7 @@ const EMPTY = { products: [], categories: [], sellers: [] }
 export default function SearchBar({
   initialValue = '',
   onSubmit,
-  placeholder = 'Search Trendora for products, brands and stores',
+  placeholder = 'Search Tap & Take for products, brands and stores',
 }) {
   const [term, setTerm] = useState(initialValue)
   const [open, setOpen] = useState(false)

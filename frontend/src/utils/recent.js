@@ -2,8 +2,8 @@
  * Small localStorage helpers for recent searches and recently viewed products.
  * Everything is wrapped in try/catch so private-mode browsers never crash the UI.
  */
-const SEARCH_KEY = 'trendora_recent_searches'
-const VIEWED_KEY = 'trendora_recent_products'
+const SEARCH_KEY = 'tap-and-take_recent_searches'
+const VIEWED_KEY = 'tap-and-take_recent_products'
 const MAX_SEARCHES = 6
 const MAX_VIEWED = 8
 

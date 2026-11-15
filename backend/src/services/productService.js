@@ -140,7 +140,7 @@ async function getFilterFacets() {
     sellers: sellerNames
       .map((row) => ({
         _id: row._id,
-        name: row.store?.name || row.name || 'Trendora seller',
+        name: row.store?.name || row.name || 'Tap & Take seller',
         productCount: countBySeller.get(String(row._id)) || 0,
       }))
       .sort((a, b) => b.productCount - a.productCount),
